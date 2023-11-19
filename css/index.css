@@ -4,28 +4,26 @@
     box-sizing: border-box;
 }
 
-body{
+.btns{
     display: flex;
-    background: black;
     text-align: center;
     flex-direction: column;
     transform: translate(450px,250px);
 }
 a{
     position: relative;
-    background: white;
-    color: #fff;
+    background: black;
     color: #000;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
     padding: 10px 30px;
-    transition: 0.5s;
+    transition: 1s;
     width: 600px;
 }
 a:hover{
  letter-spacing: 0.25em;
- background: blue;
+ background: rgb(72, 255, 0);
  box-shadow: 0 0 45px white;
  color: white;
 }
@@ -56,7 +54,7 @@ a i::before{
     height: 4px;
     background: purple;
     transform: translateX(-50%) skewX(325deg);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 a:hover i::before{
@@ -74,7 +72,7 @@ a i::after{
     height: 4px;
     background: greenyellow;
     transform: translateX(-50%) skewX(325deg);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 a:hover i::after{
