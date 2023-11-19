@@ -8,7 +8,7 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    transform: translate(450px,250px);
+    transform: translate(250px,300px);
 }
 a{
     position: relative;
